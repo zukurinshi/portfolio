@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <title>James Allas | Portfolio</title>
+    <link rel="shortcut icon" href="assets/JA logo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- <div class="bg-red-500 sm:bg-blue-500 md:bg-green-500 lg:bg-purple-500">
+  Responsive Box
+    </div> -->
+<section>
+    <div class="hero font-['Montserrat'] text-center pb-8">
+
+      <div class="navbar relative z-100 sticky top-0 pt-5 flex justify-between items-center pb-6 pl-10 pr-4">
+        <a href="/index.html">
+            <img src="assets/JA logo.png" class="w-10 sm:w-14 md:w-18 lg:w-20" alt="JA Logo">
+          </a>
+      <svg id="bar-btn"  class="size-8 sm:size-9 md:hidden lg:hidden text-white opacity-60 cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.9" stroke="currentColor" >
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+      <div id="sidebar" class="sidebar grid grid-cols-2 font-['Sora'] p-8 gap-x-8 right-0 top-0  h-screen absolute bg-gray-900 hidden md:hidden lg:hidden">
+        <ul class="text-white sm:text-lg sm:space-y-6 space-y-4">
+          <li class="hover:text-blue-600 transition-all duration-300 ease-in-out"><a href="/index.html">Home</a></li>
+          <li class="hover:text-blue-600 transition-all duration-300 ease-in-out"><a href="/about.html">About</a></li>
+          <li class="hover:text-blue-600 transition-all duration-300 ease-in-out"><a href="/projects.html">Projects</a></li>
+          <li class="hover:text-blue-600 transition-all duration-300 ease-in-out"><a href="assets/RESUME_ALLAS.pdf" target="_blank">Resume</a></li>
+        </ul>
+        <svg id="close-sidebar" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 ml-auto cursor-pointer text-white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </div>
+      <div class="navbar-links text-white font-['Sora'] hidden sm:hidden md:block lg:block">
+        <ul class="flex text-xl md:text-lg mt-6 pr-6 gap-10">
+          <li class="hover:text-blue-600 transition-all duration-300 ease-in-out"><a href="/index.html">Home</a></li>
+          <li class="hover:text-blue-600 transition-all duration-300 ease-in-out"><a href="/about.html">About</a></li>
+          <li class="hover:text-blue-600 transition-all duration-300 ease-in-out"><a href="/projects.html">Projects</a></li>
+          <li class="hover:text-blue-600 transition-all duration-300 ease-in-out"><a href="assets/RESUME_ALLAS.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </div>
+
+      </div>
+
+      <img data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out" src="assets/JA logo.png" class="w-36 sm:w-40 md:w-44 lg:w-56"  alt="JA logo">
+      <div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out"  class="hero-caption">
+          <h4 class="text-white mt-8 sm:mt-8 text-lg sm:text-xl md:2xl lg:3xl font-medium">Hello I am</h4>
+          <h4 class="text-blue-600 text-lg sm:text-xl md:2xl lg:3xl font-bold">James Allas</h4>
+          <h6 class="text-white mt-2 lg:mt-6 text-sm lg:text-lg  italic font-light">Full-Stack Web Developer</h6>
+          <a href="#featured-projects"><button id="view-projects-btn" type="button" class="font-['Sora'] transition-all duration-400 ease-in-out  hover:shadow-lg hover:shadow-white/25 cursor-pointer  mt-6 text-lg sm:text-xl tracking-widest text-white bg-gradient-to-r from-blue-900 to-gray-800 border border-none rounded-md px-6 py-4">
+            View Projects</button>
+          </a>
+      </div>
+
+      <div class="skills-card px-18">
+        <h2 data-aos="fade-down" data-aos-duration="1100" data-aos-easing="ease-in-out" class="text-white font-semibold lg:text-4xl font-['Inter']">SKILLS</h2>
+        <div class="skills-grid font-['Sora'] items-center text-white mt-8 md:mt-14 lg:mt-18 gap-y-8 gap-x-8  grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4">
+
+          <div class="skill-card items-center justify-center md:space-x-4 lg:space-x-6 space-x-2">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 sm:size-7 md:size-8 lg:size-10">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+          </svg>
+          <h4 class="text-xs sm:text-sm md:text-sm lg:text-2xl">Web Development</h4>
+          </div>
+
+          <div class="skill-card items-center justify-center md:space-x-4 lg:space-x-6 space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 sm:size-7 md:size-8 lg:size-10">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
+            </svg>
+            <h4 class="text-xs sm:text-sm md:text-sm lg:text-2xl">Software Development</h4>
+          </div>
+
+          <div class="skill-card items-center justify-center md:space-x-4 lg:space-x-6 space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 sm:size-7 md:size-8 lg:size-10">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42" />
+            </svg>
+            <h4 class="text-xs md:text-lg lg:text-2xl">Graphic Design</h4>
+          </div>
+
+          <div class="skill-card items-center justify-center md:space-x-4 lg:  space-x-6 space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 sm:size-7 md:size-8 lg:size-10">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+            </svg>
+            <h4 class="text-xs md:text-lg lg:text-2xl">UI/UX Design</h4>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="skills-section">
+        <h2 data-aos="fade-down" data-aos-duration="1100" data-aos-easing="ease-in-out" class="text-white font-semibold lg:text-4xl font-['Inter']">TECH STACK</h2>
+          <div class="skills-icons mt-6 grid grid-cols-4">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" src="assets/html-icon.svg" title="HTML" alt="HTML logo">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" src="assets/css-icon.svg" title="CSS" alt="CSS logo">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" src="assets/js-icon.svg" title="JavaScript" alt="JS logo">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" id="bs-icon" src="assets/bootstrap-icon.svg" title="Bootstrap" alt="Bootstrap logo">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" src="assets/tailwind-icon.svg" title="Tailwind" alt="Tailwind logo">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" src="assets/react-icon.svg" title="React" alt="React logo">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" src="assets/nodejs-icon.svg" title="NodeJS" alt="NodeJS logo">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" src="assets/expressjs-icon.svg" title="ExpressJS" alt="ExpressJS logo">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" src="assets/python-icon.svg" title="Python" alt="Python logo">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" src="assets/mysql-icon.svg" title="MySQL" alt="MySQL logo">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" src="assets/firebase-icon.svg" title="Firebase" alt="Firebase logo">
+            <img data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" src="assets/github-icon.svg" title="Github" alt="GitHub logo">
+          </div>
+      </div>
+
+      <div class="about-section text-left pl-8 pr-8">
+        <h2 data-aos="fade-down" data-aos-duration="1100" data-aos-easing="ease-in-out" class="text-white text-center font-semibold font-['Inter']">ABOUT</h2>
+
+        <div data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" class="education lg:ml-10  mt-8 font-[Sora] border-l-4 pl-4 border-blue-800">
+          <h4 class="text-white font-medium text-base"><strong>EDUCATION</strong></h4>
+          <p class="text-white font-semibold mt-4">Pangasinan State University - Urdaneta City Campus</p>
+          <p class="text-white mt-2 font-light">Bachelor of Science in Information Technology Major in Web & Mobile Development</p>
+          <small class="text-white mt-8 italic  font-extralight">Expected Graudation: August 2025</small>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" class="experience lg:ml-10  mt-14 font-[Sora] border-l-4 pl-4 border-blue-800">
+          <h4 class="text-white font-medium text-base"><strong>EXPERIENCE</strong></h4>
+          <p class="text-white font-semibold mt-4">Department of Education Schools Division Office - Urdaneta City, Pangasinan</p>
+          <p class="text-white mt-2 font-light">Internship Trainee</p>
+          <small class="text-white mt-8 italic  font-extralight">February 3, 2025 - May 23, 2025</small>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="1100" data-aos-easing="ease-in-out" class="summary lg:mt-12 lg:px-10 mt-8 text-sm font-light text-white font-[Sora] ">
+          <p>I am a graduating BSIT Student and I am aspiring to become a web developer who is passionate in developing web apps both frontend and backend.
+          I am continously learning about other frameworks and programming languages that I can use to develop web apps that I want to build for fun and 
+          develop systems that solves real-world problems.
+          </p>
+          <a href="/about.html" class="text-blue-300 md:text-lg lg:text-base hover:text-blue-400">More about me</a>
+        </div>
+
+        <div class="quick-links pl-8 pr-8">
+          <h2 data-aos="fade-down" data-aos-duration="900" data-aos-easing="ease-in-out" class="text-white text-center font-semibold font-['Inter']">QUICK LINKS</h2>
+          
+          <div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out" class="link-icons mt-6 flex justify-center gap-4 lg:gap-6 lg:mt-8">
+            
+            <div class="linkedin">
+              <a href="https://www.linkedin.com/in/jericho-james-allas/" target="_blank" class="">
+                <button class=" cursor-pointer transition-all duration-400 flex items-center lg:px-6 lg:py-6 hover:bg-blue-700 gap-2 border-2 rounded-md border-blue-700 px-4 py-2">
+                  <img src="assets/linkedin-icon.svg" class="" title="LinkedIn" alt="LinkedIn Logo">
+                  <small class="text-white mt-1 ">LinkedIn</small>
+                </button>
+              </a>
+            </div>
+
+             <div class="github">
+              <a href="https://github.com/zukurinshi" target="_blank" class="">
+                <button class=" cursor-pointer transition-all duration-400 flex items-center lg:px-6 lg:py-6 hover:bg-blue-700 gap-2 border-2 rounded-md border-blue-700 px-4 py-2">
+                  <img src="assets/github-icon.svg" title="Github" alt="Github Logo">
+                  <small class="text-white mt-1  md:mt-0 md:ml-1">Github</small>
+                </button>
+              </a>
+            </div>
+
+            <div class="resume">
+              <a href="assets/RESUME_ALLAS.pdf" target="_blank" class="">
+                <button class=" cursor-pointer transition-all duration-400 flex items-center lg:px-6 lg:py-6 hover:bg-blue-700 gap-2 border-2 rounded-md border-blue-700 px-4 py-2">
+                  <img src="assets/resume-icon.svg" title="Resume" alt="Resume Logo">
+                  <small class="text-white ">Resume</small>
+                </button>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        
+        
+      </div>
+      
+      <div id="featured-projects" class="projects-section pl-10 pr-10 ">
+        <h2 data-aos="fade-down" data-aos-duration="900" data-aos-easing="ease-in-out" class="text-white text-center font-semibold font-['Inter']">FEATURED PROJECTS</h2>
+        
+        <div class="project-cards grid grid-cols-1 md:grid-cols-2 gap-6 lg:px-8 mt-8">
+          <a href="/project1.html">
+            <div class="project1-card rounded-md px-4 pb-8 border-1 hover:border-3 hover:border-white cursor-pointer transition-all border-gray-500 bg-gradient-to-t opacity-75 from-blue-800 to-gray-900">
+              <img src="assets/payroll_page.png" width="100%" class="rounded-md" alt="Supplementary Payroll Page">
+              <h3>Supplementary Payroll</h3>
+            </div>
+          </a>
+
+          <a href="/project2.html">
+            <div class="project2-card rounded-md hover:border-3 hover:border-white cursor-pointer transition-all px-4 pb-5 border-1 border-gray-500 bg-gradient-to-t opacity-75 from-blue-800 to-gray-900">
+              <img src="assets/flag-atlas.PNG" width="100%" class="rounded-md" alt="Flag Atlas Page">
+              <h3>Flag Atlas</h3>
+            </div>
+            </a>
+
+          <a href="/project3.html">
+          <div class="project3-card rounded-md hover:border-3 hover:border-white cursor-pointer transition-all px-4 pb-8 border-1 border-gray-500 bg-gradient-to-t opacity-75 from-blue-800 to-gray-900">
+            <img src="assets/medaid_page.png" width="100%" class="rounded-md" alt="MedAid: Symptom Checker">
+            <h3>MedAid: Symptom Checker</h3>
+          </div>
+          </a>
+
+          <h1 class="text-sm md:text-lg lg:text-xl text-white font-['Sora'] mt-20">More projects coming soon. Stay tuned ...</h1>
+        </div>
+
+      </div>
+      <footer>
+        <div class="footer-section text-white">
+          <img src="assets/JA logo.png" class="w-10 sm:w-12 md:w-14 lg:w-18" alt="JA logo">
+          <br>
+          <small>&copy; 2025 | </small>
+          <small>Made with Tailwind CSS</small>
+          <div class="footer-icons text-xs sm:text-sm md:text-lg lg:text-xl  flex justify-center items-center gap-x-8 mt-4">
+            <a href="https://www.linkedin.com/in/jericho-james-allas/" target="_blank"><img src="assets/linkedin-icon.svg" class="hover:-translate-y-2 transition-all" alt="LinkedIn"></a>
+            <a href="https://github.com/zukurinshi" target="_blank"><img src="assets/github-icon.svg" class="hover:-translate-y-2 transition-all" alt="GitHub"></a> | 
+            <a href="/index.html" class="hover:text-blue-500">Home</a></li>
+            <a href="/about.html" class="hover:text-blue-500">About</a>
+            <a href="/projects.html" class="hover:text-blue-500">Projects</a>
+            <a href="assets/RESUME_ALLAS.pdf" class="hover:text-blue-500" target="_blank">Resume</a>
+
+          </div>
+        </div>
+      </footer>
+    </div>
+</section>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>

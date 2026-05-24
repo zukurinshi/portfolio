@@ -1,0 +1,522 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(5, 28, 63, 0.9));
+
+}
+
+.navbar {
+    background-color: rgb(25, 25, 25);
+}
+
+.card img {
+    border: 4px solid rgb(19, 100, 177);
+    transition: 0.2s ease-in-out;
+}
+
+.card img:hover {
+    border: 4px solid rgb(250, 250, 250);
+    transition: 0.2s ease-in-out;
+}
+
+.card small {
+    font-size: 0.6rem;
+}
+
+.footer-icons img {
+    width: 1.0rem;
+}
+
+.footer-section small {
+    font-size: 0.8rem;
+}
+
+.card a {
+    font-size: 0.7rem;
+}
+
+.main-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(5, 28, 63, 0.9));
+}
+
+.main-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(5, 28, 63, 0.9));
+}
+
+.about-content img {
+    display: block;
+    margin: auto;
+    padding-top: 10%;
+
+}
+
+
+
+.about-content p {
+    letter-spacing: 0.3rem;
+    font-size: 0.7rem;
+}
+
+.hero img {
+    display: block;
+    margin: auto;
+    padding-top: 10%;
+
+}
+
+
+
+.hero-caption h4 {
+    letter-spacing: 0.8rem;
+}
+
+.skills-section h2 {
+    letter-spacing: 0.7rem;
+    margin-top: 12%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.skills-card h2 {
+    letter-spacing: 0.7rem;
+    margin-top: 12%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.skill-card{
+    display: flex;
+}
+
+.skills-icons img {
+    width: 3.5rem;
+    transition: 0.3s ease-in-out;
+
+}
+
+.skills-icons img:hover {
+    /* translate: 0px -10px; */
+    rotate: 4deg;
+    /* box-shadow: 1px 1px 1px 12px rgb(131, 131, 255); */
+}
+
+#bs-icon {
+    width: 4.2rem;
+}
+
+.about-section h2 {
+    letter-spacing: 0.7rem;
+    margin-top: 12%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.about-section h4 {
+    letter-spacing: 0.2rem;
+}
+
+.summary p {
+    letter-spacing: 0.2rem;
+    line-height: 1.9rem;
+    text-align: justify;
+}
+
+.quick-links small {
+    font-size: 0.6rem;
+}
+
+
+.link-icons img {
+    width: 1.2rem;
+}
+
+.projects-section h2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.7rem;
+    margin-top: 12%;
+}
+
+.projects-section h3 {
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    margin-top: 4%;
+    color: white;
+    font-size: 0.9rem;
+
+}
+
+.project1-container img {
+    width: 100%;
+}
+
+.project1-container h3 {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.project2-container h3 {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.education-card h1 {
+    letter-spacing: 0.4rem;
+    font-size: 1.0rem;
+}
+
+.education-card p {
+    font-size: 0.8rem;
+}
+
+.education-images img {
+    border-radius: 0.2rem;
+}
+
+.experience-card h3 {
+    font-size: 0.8rem;
+}
+
+.experience-card p {
+    font-size: 0.8rem;
+}
+
+.experience-card img {
+    border-radius: 0.2rem;
+}
+
+.projects-container h1 {
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+}
+
+.projects-container img {
+    /* border: 1px solid white; */
+    border-radius: 1.3%;
+}
+
+.card-caption p {
+    font-size: 0.8rem;
+}
+
+
+
+@media screen and (min-width:640px) {
+
+    .footer-section small {
+        font-size: 0.9rem;
+    }
+
+    .footer-icons img {
+        width: 1.3rem;
+    }
+
+    .skills-section h2 {
+        font-size: 1.4rem;
+    }
+
+    .skills-card h2 {
+        font-size: 1.4rem;
+    }
+
+    .skills-icons img {
+        width: 3.9rem;
+        transition: 0.3s ease-in-out;
+    }
+
+    .about-section h2 {
+        font-size: 1.4rem;
+    }
+
+    .about-section h4 {
+        font-size: 1.1rem
+    }
+
+    .about-section p {
+        font-size: 1.0rem
+    }
+
+    #bs-icon {
+        width: 4.5rem;
+    }
+
+    .link-icons img {
+        width: 1.5rem;
+    }
+
+    .quick-links small {
+        font-size: 0.8rem;
+    }
+
+
+    .projects-section h2 {
+        font-size: 1.4rem;
+
+    }
+
+    .projects-section h3 {
+        font-size: 1.4rem;
+    }
+
+    .project1-container h3 {
+        font-size: 0.8rem;
+    }
+
+    .project2-container h3 {
+        font-size: 0.8rem;
+    }
+
+    .about-content p {
+        font-size: 0.8rem;
+    }
+
+    .education-card h1 {
+        letter-spacing: 0.4rem;
+        font-size: 1.3rem;
+    }
+
+    .education-card p {
+        font-size: 1.0rem;
+    }
+
+    .projects-container h1 {
+        font-size: 1.0rem;
+    }
+
+    .card small {
+        font-size: 0.6rem;
+    }
+
+    .card-caption p {
+        font-size: 0.9rem;
+    }
+
+    .card a {
+        font-size: 0.8rem;
+    }
+
+
+
+}
+
+@media screen and (min-width:768px) {
+    .footer-section small {
+        font-size: 1.1rem;
+    }
+
+    .footer-icons img {
+        width: 1.5rem;
+    }
+
+    .skills-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .skills-card h2 {
+        font-size: 1.5rem;
+    }
+
+    .skills-icons img {
+        width: 4.0rem;
+        transition: 0.3s ease-in-out;
+    }
+
+    .about-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-section h4 {
+        font-size: 1.2rem
+    }
+
+    .about-section p {
+        font-size: 1.1rem;
+    }
+
+    #bs-icon {
+        width: 4.7rem;
+    }
+
+    .quick-links small {
+        font-size: 0.9rem;
+    }
+
+    .link-icons img {
+        width: 1.9rem;
+    }
+
+    .projects-section h2 {
+        font-size: 1.5rem;
+
+    }
+
+    .project-cards h3 {
+        font-size: 1.0rem;
+    }
+
+    .projects-section h3 {
+        font-size: 1.4rem;
+    }
+
+    .project1-container h3 {
+        font-size: 1.1rem;
+    }
+
+    .project2-container h3 {
+        font-size: 1.1rem;
+    }
+
+    .about-content p {
+        font-size: 1.0rem;
+    }
+
+    .education-card h1 {
+        letter-spacing: 0.4rem;
+        font-size: 1.4rem;
+    }
+
+    .education-card p {
+        font-size: 1.1rem;
+    }
+
+    .experience-card h3 {
+        font-size: 1.0rem;
+    }
+
+    .projects-container h1 {
+        font-size: 1.0rem;
+    }
+
+    .card small {
+        font-size: 0.8rem;
+    }
+
+    .card-caption p {
+        font-size: 1.0rem;
+    }
+
+    .card a {
+        font-size: 0.9rem;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width:1024px) {
+    .footer-section small {
+        font-size: 1.2rem;
+    }
+
+    .footer-icons img {
+        width: 1.6rem;
+    }
+
+    .skills-section h2 {
+        font-size: 2.0rem;
+    }
+
+    .skills-card h2 {
+        font-size: 2.0rem;
+    }
+
+    .skills-icons img {
+        width: 7.0rem;
+        transition: 0.3s ease-in-out;
+    }
+
+    .about-section h2 {
+        font-size: 2.0rem;
+    }
+
+    .about-section h4 {
+        font-size: 1.8rem
+    }
+
+    .about-section p {
+        font-size: 1.3rem;
+        line-height: 2.8rem;
+    }
+
+    #bs-icon {
+        width: 7.7rem;
+
+    }
+
+    small {
+        margin-top: 5%;
+        font-size: 1.0rem;
+    }
+
+    .link-icons img {
+        width: 2.1rem;
+    }
+
+    .quick-links small {
+        font-size: 1.0rem;
+    }
+
+    .projects-section h2 {
+        font-size: 2.0rem;
+
+    }
+
+    .projects-section h3 {
+        font-size: 1.6rem;
+    }
+
+    .project1-container h3 {
+        font-size: 1.1rem;
+    }
+
+    .project2-container h3 {
+        font-size: 1.1rem;
+    }
+
+    .about-content p {
+        font-size: 1.2rem;
+    }
+
+    .education-card h1 {
+        letter-spacing: 0.4rem;
+        font-size: 1.6rem;
+    }
+
+    .education-card p {
+        font-size: 1.2rem;
+    }
+
+    .experience-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .projects-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .card small {
+        font-size: 0.8rem;
+    }
+
+    .card a {
+        font-size: 1.0rem;
+    }
+
+
+}
